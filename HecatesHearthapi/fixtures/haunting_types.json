@@ -1,0 +1,37 @@
+[
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 1,
+        "fields": {
+            "name": "Ghost"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 2,
+        "fields": {
+            "name": "Poltergeist"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 3,
+        "fields": {
+            "name": "Shadow Figure"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 4,
+        "fields": {
+            "name": "Residual Haunting"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 5,
+        "fields": {
+            "name": "Folklore"
+        }
+    }
+]

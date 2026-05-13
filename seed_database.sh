@@ -7,4 +7,4 @@ python3 manage.py makemigrations HecatesHearthapi
 python3 manage.py migrate HecatesHearthapi
 python3 manage.py loaddata users
 python3 manage.py loaddata tokens
-
+python3 manage.py loaddata haunting_types
