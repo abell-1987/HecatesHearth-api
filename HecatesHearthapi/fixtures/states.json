@@ -1,0 +1,402 @@
+[
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 1,
+        "fields": {
+            "abbreviation": "AL",
+            "name": "Alabama"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 2,
+        "fields": {
+            "abbreviation": "AK",
+            "name": "Alaska"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 3,
+        "fields": {
+            "abbreviation": "AZ",
+            "name": "Arizona"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 4,
+        "fields": {
+            "abbreviation": "AR",
+            "name": "Arkansas"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 5,
+        "fields": {
+            "abbreviation": "CA",
+            "name": "California"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 6,
+        "fields": {
+            "abbreviation": "CO",
+            "name": "Colorado"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 7,
+        "fields": {
+            "abbreviation": "CT",
+            "name": "Connecticut"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 8,
+        "fields": {
+            "abbreviation": "DE",
+            "name": "Delaware"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 9,
+        "fields": {
+            "abbreviation": "FL",
+            "name": "Florida"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 10,
+        "fields": {
+            "abbreviation": "GA",
+            "name": "Georgia"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 11,
+        "fields": {
+            "abbreviation": "HI",
+            "name": "Hawaii"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 12,
+        "fields": {
+            "abbreviation": "ID",
+            "name": "Idaho"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 13,
+        "fields": {
+            "abbreviation": "IL",
+            "name": "Illinois"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 14,
+        "fields": {
+            "abbreviation": "IN",
+            "name": "Indiana"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 15,
+        "fields": {
+            "abbreviation": "IA",
+            "name": "Iowa"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 16,
+        "fields": {
+            "abbreviation": "KS",
+            "name": "Kansas"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 17,
+        "fields": {
+            "abbreviation": "KY",
+            "name": "Kentucky"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 18,
+        "fields": {
+            "abbreviation": "LA",
+            "name": "Louisiana"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 19,
+        "fields": {
+            "abbreviation": "ME",
+            "name": "Maine"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 20,
+        "fields": {
+            "abbreviation": "MD",
+            "name": "Maryland"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 21,
+        "fields": {
+            "abbreviation": "MA",
+            "name": "Massachusetts"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 22,
+        "fields": {
+            "abbreviation": "MI",
+            "name": "Michigan"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 23,
+        "fields": {
+            "abbreviation": "MN",
+            "name": "Minnesota"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 24,
+        "fields": {
+            "abbreviation": "MS",
+            "name": "Mississippi"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 25,
+        "fields": {
+            "abbreviation": "MO",
+            "name": "Missouri"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 26,
+        "fields": {
+            "abbreviation": "MT",
+            "name": "Montana"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 27,
+        "fields": {
+            "abbreviation": "NE",
+            "name": "Nebraska"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 28,
+        "fields": {
+            "abbreviation": "NV",
+            "name": "Nevada"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 29,
+        "fields": {
+            "abbreviation": "NH",
+            "name": "New Hampshire"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 30,
+        "fields": {
+            "abbreviation": "NJ",
+            "name": "New Jersey"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 31,
+        "fields": {
+            "abbreviation": "NM",
+            "name": "New Mexico"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 32,
+        "fields": {
+            "abbreviation": "NY",
+            "name": "New York"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 33,
+        "fields": {
+            "abbreviation": "NC",
+            "name": "North Carolina"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 34,
+        "fields": {
+            "abbreviation": "ND",
+            "name": "North Dakota"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 35,
+        "fields": {
+            "abbreviation": "OH",
+            "name": "Ohio"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 36,
+        "fields": {
+            "abbreviation": "OK",
+            "name": "Oklahoma"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 37,
+        "fields": {
+            "abbreviation": "OR",
+            "name": "Oregon"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 38,
+        "fields": {
+            "abbreviation": "PA",
+            "name": "Pennsylvania"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 39,
+        "fields": {
+            "abbreviation": "RI",
+            "name": "Rhode Island"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 40,
+        "fields": {
+            "abbreviation": "SC",
+            "name": "South Carolina"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 41,
+        "fields": {
+            "abbreviation": "SD",
+            "name": "South Dakota"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 42,
+        "fields": {
+            "abbreviation": "TN",
+            "name": "Tennessee"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 43,
+        "fields": {
+            "abbreviation": "TX",
+            "name": "Texas"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 44,
+        "fields": {
+            "abbreviation": "UT",
+            "name": "Utah"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 45,
+        "fields": {
+            "abbreviation": "VT",
+            "name": "Vermont"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 46,
+        "fields": {
+            "abbreviation": "VA",
+            "name": "Virginia"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 47,
+        "fields": {
+            "abbreviation": "WA",
+            "name": "Washington"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 48,
+        "fields": {
+            "abbreviation": "WV",
+            "name": "West Virginia"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 49,
+        "fields": {
+            "abbreviation": "WI",
+            "name": "Wisconsin"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.state",
+        "pk": 50,
+        "fields": {
+            "abbreviation": "WY",
+            "name": "Wyoming"
+        }
+    }
+]

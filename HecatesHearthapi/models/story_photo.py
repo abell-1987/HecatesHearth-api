@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from .story import Story
 from .location import Location
+from .haunting_type import HauntingType
 
 
 class StoryPhoto(models.Model):
@@ -13,4 +14,5 @@ class StoryPhoto(models.Model):
         User, on_delete=models.CASCADE, related_name="story_photos"
     )
     image = models.FileField(upload_to="story_photos")
+    haunting_types = models.ManyToManyField(HauntingType, related_name="story_photos")
     uploaded_at = models.DateTimeField(auto_now_add=True)

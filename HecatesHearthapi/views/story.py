@@ -1,7 +1,7 @@
 from rest_framework import serializers, status
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
-from HecatesHearthapi.models import Story, Location, HauntingType
+from HecatesHearthapi.models import Story, Location, HauntingType, State
 
 
 class StoryView(ViewSet):
@@ -71,15 +71,49 @@ class HauntingTypeSerializer(serializers.ModelSerializer):
         fields = ("id", "name")
 
 
+class StoryStateSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = State
+        fields = ("id", "abbreviation", "name")
+
+
 class StoryLocationSerializer(serializers.ModelSerializer):
+    state = StoryStateSerializer()
+    user_id = serializers.IntegerField(source="user.id")
+    creator_name = serializers.SerializerMethodField()
+
     class Meta:
         model = Location
-        fields = ("id", "name", "city", "state")
+        fields = (
+            "id",
+            "name",
+            "city",
+            "state",
+            "user_id",
+            "creator_name",
+            "created_at",
+        )
+
+    def get_creator_name(self, obj):
+        first_initial = obj.user.first_name[:1]
+        return f"{first_initial}. {obj.user.last_name}"
+
+
+class StoryPhotoSerializer(serializers.Serializer):
+    id = serializers.IntegerField()
+    image_url = serializers.SerializerMethodField()
+
+    def get_image_url(self, obj):
+        request = self.context.get("request")
+        if obj.image and request:
+            return request.build_absolute_uri(obj.image.url)
+        return None
 
 
 class StorySerializer(serializers.ModelSerializer):
     location = StoryLocationSerializer()
     haunting_types = HauntingTypeSerializer(many=True)
+    photos = StoryPhotoSerializer(many=True)
     user_id = serializers.IntegerField(source="user.id")
     author_name = serializers.SerializerMethodField()
     is_owner = serializers.SerializerMethodField()
@@ -92,6 +126,7 @@ class StorySerializer(serializers.ModelSerializer):
             "content",
             "location",
             "haunting_types",
+            "photos",
             "user_id",
             "author_name",
             "is_owner",
@@ -99,7 +134,8 @@ class StorySerializer(serializers.ModelSerializer):
         )
 
     def get_author_name(self, obj):
-        return f"{obj.user.first_name} {obj.user.last_name}"
+        first_initial = obj.user.first_name[:1]
+        return f"{first_initial}. {obj.user.last_name}"
 
     def get_is_owner(self, obj):
         request = self.context.get("request")

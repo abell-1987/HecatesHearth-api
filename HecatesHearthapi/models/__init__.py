@@ -1,3 +1,4 @@
+from .state import State
 from .location import Location
 from .haunting_type import HauntingType
 from .story import Story

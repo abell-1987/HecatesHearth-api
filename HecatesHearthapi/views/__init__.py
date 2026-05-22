@@ -3,3 +3,4 @@ from .location import LocationView
 from .story import StoryView
 from .haunting_type import HauntingTypeView
 from .story_photo import StoryPhotoView
+from .state import StateView

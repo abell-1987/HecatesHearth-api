@@ -82,5 +82,19 @@
         "fields": {
             "name": "Object-Based Haunting"
         }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 13,
+        "fields": {
+            "name": "Disembodied Voices"
+        }
+    },
+    {
+        "model": "HecatesHearthapi.hauntingtype",
+        "pk": 14,
+        "fields": {
+            "name": "Phantom Sounds"
+        }
     }
 ]

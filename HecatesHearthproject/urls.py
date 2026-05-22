@@ -10,6 +10,7 @@ from HecatesHearthapi.views import (
     StoryView,
     HauntingTypeView,
     StoryPhotoView,
+    StateView,
 )
 
 router = routers.DefaultRouter(trailing_slash=False)
@@ -17,6 +18,7 @@ router.register(r"locations", LocationView, "location")
 router.register(r"stories", StoryView, "story")
 router.register(r"hauntingtypes", HauntingTypeView, "hauntingtype")
 router.register(r"storyphotos", StoryPhotoView, "storyphoto")
+router.register(r"states", StateView, "state")
 
 urlpatterns = [
     path("", include(router.urls)),
